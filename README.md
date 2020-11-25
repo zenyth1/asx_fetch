@@ -1,2 +1,2 @@
 # asx_fetch
-Python library to fetch data from the Australian Stock Exchange
+Python module to fetch data from the Australian Stock Exchange
