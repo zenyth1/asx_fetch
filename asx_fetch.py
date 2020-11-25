@@ -12,6 +12,10 @@ def get_last_price(ticker: str) -> str:
     data = json.loads(response)
     return data['data']['priceLast']
 
+def get_key_stats(ticker: str) -> object:
+    placeholder = {}
+    return placeholder
+
 if __name__ == "__main__":
     print(get_last_price("VDHG"))
     print(get_last_price("MSB"))
